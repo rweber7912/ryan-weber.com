@@ -3,8 +3,55 @@
     <head>
         <meta charset="utf-8">
         <title>Ryan Weber's personal website</title>
+        <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
     </head>
-    <body>
-        <p>Ryan Weber</p>
+    <body class="fader">
+        <div class="flex">
+            <div>
+                <div class="desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 724">
+                        <path class="white-logo" d="M.5 681.73c0-15.4 10.01-27.61 26.4-27.61 14.08 0 22 11 23.98 22.77l7.04-4.62c3.08-1.98 4.84-4.18 4.84-9.68v-11.66h17.6v14.19c0 9.57-3.41 16.28-10.23 20.68l-16.94 10.89v7.92h27.17v18.7H.5zm16.5 2.53v20.35h22.22v-20.35c0-7.04-4.18-12.1-10.89-12.1-6.71 0-11.33 5.06-11.33 12.1zM80.36 610.01H54.73L.5 579.32V600l35.86 18.81L.5 637.62v21.67l54.23-30.58h25.63zM.5 542.8l79.86-31.13v21.78l-14.96 5.39v33.66l14.96 5.39v20.57L.5 567.44V542.8zm17.16 12.87l33.11 12.32v-24.64l-33.11 12.32zM80.36 489.45H29.32l51.04-38.5v-17.49H.5v18.04h50.49L.5 490v17.38h79.86z"/>
+                        <path class="yellow-logo" d="M80.36 357.67l-52.14-16.39 52.14-15.4v-23.43L.5 280.23v20.02l55.55 14.52L.5 331.27v17.05l55.55 16.94L.5 379.45v21.23l79.86-21.34zM80.36 215.22h-17.6v42.02H47.91v-39.71H33.06v39.71H18.21v-39.93H.5v58.63h79.86zM.5 168.47c0-14.52 9.13-23.65 21.45-23.65 5.61 0 11.55 2.31 14.74 6.71 3.74-6.27 10.23-10.67 18.92-10.67 14.63 0 24.75 10.01 24.75 27.28v44.44H.5zM44.94 171v22.77h20.24v-23.43c0-5.72-4.4-10.23-10.12-10.23-6.05 0-10.12 4.73-10.12 10.89zm-29.15-.44v23.1h18.7v-23.1c0-5.06-4.29-9.13-9.13-9.13-5.61 0-9.57 4.29-9.57 9.13z"/>
+                        <path class="white-logo" d="M80.36 75.85h-17.6v42.02H47.91V78.16H33.06v39.71H18.21V77.94H.5v58.63h79.86zM.5 31.63c0-15.4 10.01-27.61 26.4-27.61 14.08 0 22 11 23.98 22.77l7.04-4.62c3.08-1.98 4.84-4.18 4.84-9.68V.83h17.6v14.19c0 9.57-3.41 16.28-10.23 20.68L53.19 46.59v7.92h27.17v18.7H.5zM17 34.16v20.35h22.22V34.16c0-7.04-4.18-12.1-10.89-12.1-6.71 0-11.33 5.06-11.33 12.1z"/>
+                    </svg>                  
+                </div>
+                <div class="mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 725 82">
+                        <path class="white-logo" d="M42.77 1c15.4 0 27.61 10.01 27.61 26.4 0 14.08-11 22-22.77 23.98l4.62 7.04c1.98 3.08 4.18 4.84 9.68 4.84h11.66v17.6H59.38c-9.57 0-16.28-3.41-20.68-10.23L27.81 53.69h-7.92v27.17H1.19V1h41.58zm-2.53 16.5H19.89v22.22h20.35c7.04 0 12.1-4.18 12.1-10.89 0-6.71-5.06-11.33-12.1-11.33zm74.25 63.36V55.23L145.18 1H124.5l-18.81 35.86L86.88 1H65.21l30.58 54.23v25.63h18.7zM181.7 1l31.13 79.86h-21.78l-5.39-14.96H152l-5.39 14.96h-20.57L157.06 1h24.64zm-12.87 17.16l-12.32 33.11h24.64l-12.32-33.11zm66.22 62.7V29.82l38.5 51.04h17.49V1H273v50.49L234.5 1h-17.38v79.86h17.93z"/>
+                        <path class="yellow-logo" d="M366.83 80.86l16.39-52.14 15.4 52.14h23.43L444.27 1h-20.02l-14.52 55.55L393.23 1h-17.05l-16.94 55.55L345.05 1h-21.23l21.34 79.86h21.67zm142.45 0v-17.6h-42.02V48.41h39.71V33.56h-39.71V18.71h39.93V1h-58.63v79.86h60.72zM556.03 1c14.52 0 23.65 9.13 23.65 21.45 0 5.61-2.31 11.55-6.71 14.74 6.27 3.74 10.67 10.23 10.67 18.92 0 14.63-10.01 24.75-27.28 24.75h-44.44V1h44.11zm-2.53 44.44h-22.77v20.24h23.43c5.72 0 10.23-4.4 10.23-10.12 0-6.05-4.73-10.12-10.89-10.12zm.44-29.15h-23.1v18.7h23.1c5.06 0 9.13-4.29 9.13-9.13 0-5.61-4.29-9.57-9.13-9.57z"/>
+                        <path class="white-logo" d="M648.65 80.86v-17.6h-42.02V48.41h39.71V33.56h-39.71V18.71h39.93V1h-58.63v79.86h60.72zM692.87 1c15.4 0 27.61 10.01 27.61 26.4 0 14.08-11 22-22.77 23.98l4.62 7.04c1.98 3.08 4.18 4.84 9.68 4.84h11.66v17.6h-14.19c-9.57 0-16.28-3.41-20.68-10.23l-10.89-16.94h-7.92v27.17h-18.7V1h41.58zm-2.53 16.5h-20.35v22.22h20.35c7.04 0 12.1-4.18 12.1-10.89 0-6.71-5.06-11.33-12.1-11.33z"/>
+                    </svg>
+                    
+                </div>
+            </div>
+            <div class="container">
+                <h1>Who am I?</h1>
+                <p>
+                    I'm an entrepreneur and a full stack developer living in London, UK. 
+                    I've been working on the web for over 15 years, and I still love it. You can tell by the look on my face ;)
+                </p>
+                <p><img src="img/face.jpg" alt="Ryan Weber" title="Happy face"></p>
+                <p>
+                    I enjoy programming and I always try to find the newest and the bestessstt, so I write
+                    in HTML, CSS, PHP, Javascript, VueJS, AlpineJS, Bash, Java, and a bit of Swift. Yeah, I know!
+                    Nice bunch of languages there.
+                </p>
+                <p>
+                    I'm a big Apple fan. I work on Macbook Pro, check my text messages on iPhone and track my walks and runs
+                    on Apple Watch. I just think that Apple products require less &quot;turn it off and on again&quot;.
+                </p>
+                <p>
+                    You can find me on Twitter: <a href="https://twitter.com/ryanw3b3r" title="Twitter">@ryanw3b3r</a> or 
+                    LinkedIn: <a href="https://www.linkedin.com/in/ryanw3b3r" title="LinkedIn">ryanw3b3r</a>. You can also
+                    try to find me on <a href="https://www.facebook.com/ryan.weber.311493" title="Find me on FB!">Facebook</a>,
+                    although I don't like it that much and I usually just read posts from groups there. 
+                    Feel free to follow me, connect or DM.
+                </p>
+                <footer>
+                    <p>Copyright &copy; 2020 Ryan Weber. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
