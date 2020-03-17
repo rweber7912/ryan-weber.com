@@ -83,7 +83,6 @@ footer {
 
 @media (min-width: 640px) {
     img {
-        max-width: none;
         margin-bottom: 4rem;
     }
     .desktop {
