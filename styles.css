@@ -5,16 +5,14 @@ html {
     line-height: 1.7rem;
 }
 
-a {
-    color: #999;
-    text-decoration: none;
-    border-bottom: 1px dashed #666;
-}
-
-a:hover, a:visited, a:active {
+a, a:hover, a:visited, a:active {
     color: #ccc;
     text-decoration: none;
     border-bottom: 1px solid #ccc;
+}
+
+a {
+    border-bottom: 1px dashed #ccc;
 }
 
 svg {
@@ -28,6 +26,36 @@ img {
     border-radius: 40%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
     max-width: 16rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+img.captioned {
+    margin-bottom: .5rem;
+}
+
+.last {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.nobr {
+    white-space: nowrap !important;
+}
+
+.center {
+    text-align: center;
 }
 
 .fader {

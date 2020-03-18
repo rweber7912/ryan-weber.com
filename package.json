@@ -1,0 +1,23 @@
+{
+  "name": "ryan-weber.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "scripts": {
+    "css": "./node_modules/uglifycss/uglifycss styles.css > styles.min.css",
+    "serve": "./node_modules/browser-sync/dist/bin.js . -w"
+  },
+  "keywords": [
+    "ryan",
+    "weber",
+    "personal",
+    "website"
+  ],
+  "author": "Ryan Weber",
+  "license": "UNLICENSED",
+  "homepage": "https://ryan-weber.com",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "uglifycss": "0.0.29"
+  }
+}
