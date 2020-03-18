@@ -2,10 +2,9 @@
   "name": "ryan-weber.com",
   "version": "1.0.0",
   "description": "Personal website",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "css": "./node_modules/uglifycss/uglifycss styles.css > styles.min.css",
-    "serve": "./node_modules/browser-sync/dist/bin.js . -w"
+    "serve": "node ./index.js"
   },
   "keywords": [
     "ryan",

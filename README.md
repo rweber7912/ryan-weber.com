@@ -10,10 +10,11 @@ Just run `npm install`
 
 ## Development
 
-Run local web server with `npm run serve`.
+Run local web server with `npm run serve`. It will start Browser Sync which
+will be watching all files in folder for changes and it will also minify
+CSS if it's edited.
 
 
 ## Publishing
 
-- minify CSS with `npm run css`
-- change `styles.css` in `index.html` file to `styles.min.css`
+No need to edit any files or run any special commands before going live!
